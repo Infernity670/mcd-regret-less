@@ -1,0 +1,38 @@
+{
+  "mode": "demo",
+  "label": "虚构演示价格",
+  "context": {
+    "store_id": "demo-store",
+    "dining_mode": "pickup"
+  },
+  "budget_cents": 2000,
+  "claim": "仅比较输入且有效的候选；不代表全菜单最低价",
+  "plans": {
+    "keep": {
+      "id": "bundle",
+      "total_cents": 3200,
+      "items": {
+        "burger": 1,
+        "fries-m": 1,
+        "cola": 1
+      },
+      "missing": {},
+      "added": {},
+      "preference_loss": 0,
+      "over_budget_cents": 1200,
+      "savings_cents": 400,
+      "quoted_at": "2026-10-10T12:00:00+08:00",
+      "evidence": null
+    },
+    "small_change": null,
+    "budget": null
+  },
+  "minimum_gap_cents": 900,
+  "excluded": [
+    {
+      "id": "cheap",
+      "reason": "未满足不可替换餐品"
+    }
+  ],
+  "valid_candidate_count": 3
+}

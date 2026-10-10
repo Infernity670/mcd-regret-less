@@ -1,0 +1,85 @@
+{
+  "mode": "demo",
+  "context": {
+    "store_id": "demo-store",
+    "dining_mode": "pickup"
+  },
+  "baseline_id": "original",
+  "preferences": {
+    "budget_cents": 2000,
+    "required": {
+      "burger": 1,
+      "cola": 1
+    },
+    "desired": {
+      "burger": 1,
+      "fries-m": 1,
+      "cola": 1
+    },
+    "forbidden": [],
+    "weights": {
+      "fries-m": 3,
+      "cola": 2
+    }
+  },
+  "candidates": [
+    {
+      "id": "original",
+      "total_cents": 3600,
+      "items": {
+        "burger": 1,
+        "fries-m": 1,
+        "cola": 1
+      },
+      "source": "demo",
+      "quoted_at": "2026-10-10T12:00:00+08:00",
+      "context": {
+        "store_id": "demo-store",
+        "dining_mode": "pickup"
+      }
+    },
+    {
+      "id": "bundle",
+      "total_cents": 3200,
+      "items": {
+        "burger": 1,
+        "fries-m": 1,
+        "cola": 1
+      },
+      "source": "demo",
+      "quoted_at": "2026-10-10T12:00:00+08:00",
+      "context": {
+        "store_id": "demo-store",
+        "dining_mode": "pickup"
+      }
+    },
+    {
+      "id": "small-fries",
+      "total_cents": 2900,
+      "items": {
+        "burger": 1,
+        "fries-s": 1,
+        "cola": 1
+      },
+      "source": "demo",
+      "quoted_at": "2026-10-10T12:00:00+08:00",
+      "context": {
+        "store_id": "demo-store",
+        "dining_mode": "pickup"
+      }
+    },
+    {
+      "id": "cheap",
+      "total_cents": 2400,
+      "items": {
+        "burger": 1
+      },
+      "source": "demo",
+      "quoted_at": "2026-10-10T12:00:00+08:00",
+      "context": {
+        "store_id": "demo-store",
+        "dining_mode": "pickup"
+      }
+    }
+  ]
+}

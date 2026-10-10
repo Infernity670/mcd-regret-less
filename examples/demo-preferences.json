@@ -1,0 +1,7 @@
+{
+  "budget_cents": 3000,
+  "required": {"burger": 1},
+  "desired": {"burger": 1, "fries-m": 1, "cola": 1},
+  "forbidden": [],
+  "weights": {"fries-m": 3, "cola": 2}
+}
