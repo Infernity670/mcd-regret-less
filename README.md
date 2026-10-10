@@ -73,9 +73,3 @@ WorkBuddy连接读取实际 schema，并响应用户当前具体请求调用工�
 | docs/ | 参赛检查、发布步骤和演示脚本 |
 
 核心代码与 Skill 原创编写，代码/原创文档采用 MIT；官方参赛声明原样保留，第三方条款和官方内容不因本仓库许可证获得额外授权。详见 LICENSE 与 docs/ATTRIBUTION.md。
-
-## 参赛
-
-[官方规则](https://github.com/M-China/mcd-developer-innovation-challenge/blob/main/activityGuidelines.md)。报名截止2026-10-25 23:59（北京时间）。真实联调与个人公开仓库完成后再提交 [报名稿](docs/REGISTRATION_DRAFT.md)，目前不宣称已经符合全部参赛条件。
-
-WorkBuddy实际使用与调试记录应导出为workbuddy.md，脱敏后放在仓库根目录。当前尚未提供该文件；专项奖励资格以真实使用记录和官方审核为准。参见 [WorkBuddy验收提示词](docs/WORKBUDDY_ACCEPTANCE.md)。
